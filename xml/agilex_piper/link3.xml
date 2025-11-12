@@ -1,0 +1,14 @@
+<mujoco model="piper">
+    <compiler angle="radian" />
+    <size njmax="500" nconmax="100" />
+    <asset>
+        <mesh name="link6" file="/home/khalillee/sim1_ws/src/piper_ros/src/piper_description/meshes/link3.STL" />
+    </asset>
+    <worldbody>
+        <body name="link3" pos="0.28358 0.028726 0" quat="0.998726 0 0 0.0504536" gravcomp="1">
+            <inertial pos="-0.01999 -0.14808 -0.00053" mass="0.500" 
+          fullinertia="0.01347608 0.00046377 0.01363321 0.00161034 0.00000066 0.00000162"/>
+            <geom type="mesh" rgba="0.792157 0.819608 0.933333 1" mesh="link6"/>
+        </body>
+    </worldbody>
+</mujoco>
