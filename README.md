@@ -1,6 +1,11 @@
 # Piper RL Demo
 仓库包含了Piper RL的简单演示代码，演示了如何使用Piper RL训练一个简单的任务： Reach Target，任务要求Piper的夹爪中心到达指定的目标位置，而不要求Piper的末端姿态，用简单的奖励函数来实现这个任务。仓库提供了两种仿真器下的训练示例，分别是Mujoco和Genesis
 
+## 仓库
+
+[Piper_rl](https://github.com/vanstrong12138/Piper_rl.git)
+[Agilex-College](https://github.com/agilexrobotics/Agilex-College.git)
+
 ## 环境依赖
 
 - 安装RL相关的依赖
